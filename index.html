@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en" data-theme="system">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jonathan Svirsky - About</title>
+  <meta name="description" content="Research interests, publications, projects, and code by Jonathan Svirsky." />
+  <meta name="color-scheme" content="light dark" />
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-K5m0xg9EZ1j4W4p5Al2EuvFh2X1wbA7GyK23n3bI9l2i0DkE0vKz3oTfqeqi1NfYp6xYB4AqEoxq6RLf1p9I9A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/all.min.css"/>
+
+  
+  <style>
+    body{margin:0;font-family:system-ui, sans-serif;background:var(--bg);color:var(--fg)}
+    :root{--bg:#fff;--fg:#111;--muted:#555;--border:#ddd;--accent:#007acc}
+    @media(prefers-color-scheme:dark){:root{--bg:#111;--fg:#eee;--muted:#aaa;--border:#333;--accent:#3af}}
+    .container{max-width:900px;margin:auto;padding:20px}
+    header{text-align:center;padding:40px 0}
+    header img{max-width:100%;height:auto;border-radius:50%}
+    h1{margin:10px 0 5px}
+    .tagline{color:var(--muted)}
+    nav{display:flex;justify-content:center;gap:20px;padding:10px;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+    nav a{color:var(--fg);text-decoration:none;font-weight:500}
+    nav a:hover{color:var(--accent)}
+    section{margin:40px 0}
+    h2{border-bottom:1px solid var(--border);padding-bottom:5px}
+    .socials{display:flex;justify-content:center;gap:16px;margin-top:15px}
+    .socials a{color:var(--fg);font-size:28px;text-decoration:none}
+    .socials a:hover{color:var(--accent)}
+    footer{text-align:center;padding:20px 0;color:var(--muted);border-top:1px solid var(--border)}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="avatar.jpg" alt="Jonathan Svirsky" />
+      <h1>Jonathan Svirsky</h1>
+      <div class="tagline">Speech Processing · Machine Learning </div>
+      <div class="socials">
+        <a href="https://github.com/jsvir" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://scholar.google.com/?user=qRwzZmgAAAAJ&hl=en" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
+        <a href="https://www.linkedin.com/in/jonathan-s-000bb08b/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </header>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#pubs">Publications</a>
+      <a href="#projects">Projects</a>
+    </nav>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>
+My research focuses on [multimodal] representation learning for efficient and interpretable neural networks. 
+I design lightweight speech models, adaptive feature selection methods, and efficient training techniques for LLMs. 
+I’m passionate about bridging theory and real-world impact, developing deployable and efficient AI systems grounded in data-driven modeling.
+
+</p>
+    </section>
+
+    <section id="research">
+      <h2>Research Interests</h2>
+      <ul>
+        <li>Efficient Speech Processing and Generation</li>
+        <li>Multimodal Representation Learning</li>
+        <li>Adaptive Feature Selection and Dynamic Sparsification</li>
+      </ul>
+    </section>
+
+    <section id="pubs">
+
+      <h2>Publications</h2>
+  <ul class="pub-list">
+     <li>
+      <b><a href="https://openreview.net/pdf?id=5ZEbpBYGwH" target="_blank">COPER: Correlation-based Permutations for Multi-View Clustering</a></b><br>
+      <i>R. Eisenberg, J. Svirsky, O. Lindenbaum</i><br>
+      <span>ICLR, 2025</span>
+    </li>
+    <li>
+      <b><a href="https://openreview.net/pdf?id=LvNROciCne" target="_blank">AdaRankGrad: Adaptive Gradient-Rank and Moments for Memory-Efficient LLMs Training and Fine-Tuning</a></b><br>
+      <i>Y. Refael, J. Svirsky, B. Shustin, W. Huleihel, O. Lindenbaum</i><br>
+      <span>ICLR, 2025</span>
+    </li>
+    <li>
+      <b><a href="https://www.isca-archive.org/interspeech_2024/svirsky24_interspeech.pdf" target="_blank">Sparse Binarization for Fast Keyword Spotting</a></b><br>
+      <i>J. Svirsky, U. Shaham, O. Lindenbaum</i><br>
+      <span>Interspeech, 2024</span>
+    </li>
+    <li>
+      <b><a href="https://raw.githubusercontent.com/mlresearch/v235/main/assets/svirsky24a/svirsky24a.pdf" target="_blank">Interpretable Deep Clustering for Tabular Data</a></b><br>
+      <i>J. Svirsky, O. Lindenbaum</i><br>
+      <span>ICML, 2024</span>
+    </li>
+    <li>
+      <b><a href="https://arxiv.org/pdf/2210.16022" target="_blank">SG-VAD: Stochastic Gates Based Speech Activity Detection</a></b><br>
+      <i>J. Svirsky, O. Lindenbaum</i><br>
+      <span>ICASSP, 2023</span>
+    </li>
+    <li>
+      <b><a href="https://www.sciencedirect.com/science/article/abs/pii/S0893608022001344" target="_blank">Deep Unsupervised Feature Selection by Discarding Nuisance and Correlated Features</a></b><br>
+      <i>U. Shaham, O. Lindenbaum, J. Svirsky, Y. Kluger</i><br>
+      <span>Neural Networks 152, 34–43, 2022</span>
+    </li>
+    <li>
+      <b><a href="https://arxiv.org/abs/2110.05887" target="_blank">Discovery of Single Independent Latent Variable</a></b><br>
+      <i>U. Shaham, J. Svirsky, O. Katz, R. Talmon</i><br>
+      <span>NeurIPS 36, 2022</span>
+    </li>
+    <li>
+      <b><a href="https://openreview.net/pdf?id=OUH25e12YyH" target="_blank">Differentiable Unsupervised Feature Selection Based on a Gated Laplacian</a></b><br>
+      <i>O. Lindenbaum, U. Shaham, E. Peterfreund, J. Svirsky, N. Casey, Y. Kluger</i><br>
+      <span>NeurIPS 34, 1530–1542, 2021</span>
+    </li>
+   
+  </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects & Code</h2>
+      <ul>
+
+        <li><a href="https://jsvir.github.io/ivc/">ICV</a> - Provable Speech Attributes Conversion via Latent Independence</li>
+        <li><a href="https://github.com/jsvir/idc">Interpretable Deep Clustering</a> -  Interpretable Deep Clustering for Tabular Data</li>
+        <li><a href="https://github.com/jsvir/sparknet">SparkNet</a> -  Sparse Binarization for Fast Keyword Spotting</li>
+        <li><a href="https://github.com/jsvir/vad">SG-VAD</a> - Stochastic Gates Based Speech Activity Detection</li>
+        <li><a href="https://shaham-lab.github.io/disilv/">Audio Samples</a> - Discovery of Single Independent Latent Variable</li>
+
+
+      </ul>
+    </section>
+
+<section id="visitors">
+  <h2>Visitors Map</h2>
+<div id="visitors-widget" class="project" style="min-height:140px; display:flex;align-items:center;justify-content:center;">
+      <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=fff8f8&w=500&t=tt&d=kI-bV_qP7W1AotPjRHG6FuASmOuo2O2_4yYrAGxLYxw&co=09090a&cmo=3acc3a&cmn=ff5353&ct=808080'></script>
+  </div>
+</section>
+
+    <footer>
+      © <span id="year"></span> Jonathan Svirsky · Built with ❤️ using GitHub Pages
+    </footer>
+  </div>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
